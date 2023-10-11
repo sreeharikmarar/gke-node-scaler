@@ -10,6 +10,29 @@ Before running the application, ensure that you have Go installed on your system
 
 - [Go](https://golang.org/doc/install)
 
+### Install the Application
+
+```
+go install github.com/sreeharikmarar/gke-node-scaler/cmd/gns@latest
+```
+
+```
+$: gns
+
+Usage:
+  gns [command]
+
+Available Commands:
+  completion  Generate the autocompletion script for the specified shell
+  help        Help about any command
+  list        List GKE clusters and nodes
+
+Flags:
+  -h, --help   help for gns
+
+Use "gns [command] --help" for more information about a command.
+```
+
 ### Building and Running
 
 Use the provided Makefile to build, run, and manage the application.

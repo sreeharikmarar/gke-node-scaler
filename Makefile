@@ -6,11 +6,11 @@ GOTEST  := $(GO) test
 BIN_DIR := ./bin
 
 # Application variables
-APP_NAME := gke-node-scaler
+APP_NAME := gns
 
 # Build the application
 build:
-	$(GO) build -o $(BIN_DIR)/$(APP_NAME) ./cmd/main.go
+	$(GO) build -o $(BIN_DIR)/$(APP_NAME) ./cmd/gns/main.go
 
 # Run the application
 run:
